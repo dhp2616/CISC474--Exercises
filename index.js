@@ -21,7 +21,7 @@ server.listen(port, function (error) {
 
 var admin = require("firebase-admin");
 
-var serviceAccount = require("/etc/secrets/firebase-key.json");
+var serviceAccount = require("/etc/secrets/firebase-sec.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
