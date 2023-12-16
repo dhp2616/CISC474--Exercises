@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/dhp2616/CISC474--Exercises/issues"
   },
-  "homepage": "https://github.com/dhp2616/CISC474--Exercises#readme"
+  "homepage": "https://github.com/dhp2616/CISC474--Exercises#readme",
+  "dependencies": {
+    "firebase-admin": "^12.0.0"
+  }
 }
